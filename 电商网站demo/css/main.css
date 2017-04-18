@@ -1,0 +1,220 @@
+* {
+  /*background: rgba(0, 0, 0, 0.1);*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background,opacity,color 200ms;
+  -moz-transition: background,opacity,color 200ms;
+  -ms-transition: background,opacity,color 200ms;
+  -o-transition: background,opacity,color 200ms;
+  transition: background,opacity,color 200ms;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+button,a {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+body {
+    /*background: #f5f5f5;*/
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after,
+.clearf:before,
+.clearf:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+  position: relative;
+  min-height: 1px;
+  float: left;
+}
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.col-8 {
+    width: 80%;
+}
+.top-nav {
+  background: rgba(0, 0, 0, 0.07);
+  font-size: 10px;
+}
+.top-nav .container {
+  padding: 5px 0;
+}
+.top-nav .container a{
+  padding: 0 5px;
+  color: #555;
+}
+.top-nav .container a:hover{
+  color: #c81522;
+}
+.header {
+  margin-top: 20px;
+}
+.header .container .logo {
+  text-align: center;
+  font-size: 40px;
+}
+.header .container .search {
+
+  margin: 16px 0;
+  padding: 0 40px;
+}
+.header .container .search div {
+  border: 2px solid #c81522;
+}
+.header .container .search input,
+.header .container .search button {
+  padding: 8px 20px;
+  outline: 0;
+}
+.header .container .search button{
+  background: #c81522;
+  color: #fff;
+}
+.header .container .cart {
+  margin: 16px 0px;
+  padding: 0 10px;
+  background: #fff;
+  height: 35px;
+  vertical-align: middle;
+}
+.header .container .cart .cart-con:hover{
+  background: rgba(0, 0, 0, 0.07);
+}
+.header .container .cart .cart-con {
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #c81522;
+  cursor: pointer;
+  color: #c81522;
+}
+.main .container .nav {
+  background: #6e6568;
+  color: #fff;
+}
+.main .container .nav li {
+  padding: 7px 20px;
+  display: block;
+}
+.main .container .nav li a{
+  display: block;
+}
+.main .container .nav li:hover{
+  background: #5d5558;
+}
+.owner {
+  line-height: 50px;
+}
+.owner .owner-icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background:#ccc;
+  margin: 10px;
+}
+.btn button {
+  border: 2px solid #c81522;
+  padding: 4px 20px;
+  margin: 10px;
+  background: #fff;
+  color: #c81522;
+  outline: none;
+}
+.btn button:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+.ann {
+  padding-left: 10px;
+}
+.ann-con {
+  padding: 5px;
+}
+.title span{
+  width: 10px;
+  height: 25px;
+  display: block;
+  vertical-align: middle;
+  background: #dd182b;
+  margin-right: 10px;
+}
+.title {
+  color: #555;
+  line-height: 25px;
+}
+.slider .card {
+  height: 200px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.slider .card:hover{
+  opacity: 0.8;
+}
+.footer div {;
+  text-align: center;
+  font-size: 10px;
+}
+.footer .foo-con a {
+  color: #555;
+}
